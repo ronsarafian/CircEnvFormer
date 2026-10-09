@@ -1,0 +1,12 @@
+# Example configuration. Replace paths with local data locations.
+era5_dir: /path/to/era5
+era5_tensor: meteorology_tensor.pt
+era5_metadata: meteorology_metadata.pkl
+ims_dir: /path/to/ims
+ifs_tensor_root: /path/to/ifs_tensors
+
+train_years: [2000, 2020]
+test_years: [2021, 2025]
+forecast_leads_hours: [0, 24, 48]
+embedding_dim: 64
+n_clusters: 4
